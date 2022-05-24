@@ -1,0 +1,142 @@
+body{
+font-weight: bold;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+height: 100vh;
+color: rgb(40, 40, 43);
+background-color:rgb(9, 0, 0);
+}
+h2{
+color: antiquewhite;
+text-align: center;
+border: 2px solid rgb(54, 52, 52);
+border-radius: 30px;
+box-shadow: 5px 4px 5px yellow;
+padding: 5px;
+}
+.container{
+display:flex;
+flex-direction: column;
+}
+li{
+width: 70px;
+height:50px;
+border-radius: 10px;
+line-height: 50px;
+list-style-type:none;
+text-align: center;
+font-size: 13px;
+margin: 3px;
+background-color: crimson;
+}
+ul{
+ display: flex;   
+}
+#space{
+width: 400px;
+background-color: rgb(137, 243, 32);
+}
+#alt{
+width: 100px;
+background-color: rgb(169, 227, 82);
+}
+#ctrl{
+width: 100px;
+background-color:red;
+}
+#shift{
+width: 185px;
+background-color: rgb(252, 7, 7);
+}
+#esc{
+background-color: red;
+width: 70px;
+}
+#caps{
+width: 120px;
+background-color: red;
+}
+#back{
+width:150px;
+background-color: red;
+}
+#enter{
+    width: 175px;
+    background-color: red;
+}
+#tab{
+width: 170px;
+background-color: red;
+}
+#slsh{
+width: 130px;
+background-color: red;
+}
+#c1{
+    background-color: mediumslateblue;
+    animation: c1 0.2s infinite;
+}
+@keyframes c1{
+   0%{transform: translate(2px,5px);}
+   25%{transform: translate3d(6px,-4px,8px);
+       background-color:tomato;}
+   50% {transform:translate3d(-6px,-8px,-8px);
+        background-color: violet; }
+   100%{transform: translate3d(5px,5px,5px);
+   }
+ }#cc{
+    background-color:rebeccapurple ;
+    animation: c2 0.2s infinite;
+}
+@keyframes c2 {
+   0%{transform: translate(6px,8px);}
+   50%{transform:translate3d(6px,8px,8px);
+       background-color:rgb(40, 40, 43);}               
+   100%{transform: translate3d(-1px,-2px,-3px);
+        background-color:rebeccapurple ;}
+}
+#c3{
+    background-color: peru;
+}
+#c4{
+    background-color: palevioletred;
+    animation: c4 0.2s infinite;
+}
+@keyframes c4{
+0%{transform: matrix(2.2,1.3,0,1,6px,10px);
+   background-color: rgb(197, 84, 103);}
+50%{transform:translate3d(-5px,-9px,-6px);
+    background-color: midnightblue;}
+}
+#c5{
+    background-color: teal;
+    animation: c5 0.2s infinite;
+}  
+keyframes c5{
+ 50%{transform:translate(8px,6px);
+    background-color:rosybrown;}
+100%{transform: scale3d(-6px,-6px,12px); 
+      background-color: rgb(210, 6, 36);}
+}keyframes c5{
+ 50%{transform:translate(8px,6px);
+    background-color:rosybrown;}
+100%{transform: scale3d(-6px,-6px,12px); 
+      background-color: rgb(210, 6, 36);}
+}
+.icons{
+margin-left: 80%;
+color:black;
+}
+audio{width:400px;
+    height: 150px;
+}
+.icons{
+margin-left: 80%;
+color:black;
+}
+audio{width:400px;
+    height: 150px;
+}
