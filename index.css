@@ -4,7 +4,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
 height: 100vh;
 color: rgb(40, 40, 43);
 background-color:rgb(9, 0, 0);
@@ -64,8 +63,8 @@ width:150px;
 background-color: red;
 }
 #enter{
-    width: 175px;
-    background-color: red;
+width: 175px;
+background-color: red;
 }
 #tab{
 width: 170px;
@@ -96,7 +95,7 @@ background-color: red;
    50%{transform:translate3d(6px,8px,8px);
        background-color:rgb(40, 40, 43);}               
    100%{transform: translate3d(-1px,-2px,-3px);
-        background-color:rebeccapurple ;}
+    background-color:rebeccapurple ;}
 }
 #c3{
     background-color: peru;
